@@ -19,4 +19,4 @@ function getSoma(x,y) {
     return soma.toFixed(2);
 }
 
-console.log(getSoma(2,5))
+

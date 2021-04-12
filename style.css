@@ -12,7 +12,7 @@
 
 .formulario h1 {
     color: blue;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 50px;
 }
 
@@ -34,13 +34,15 @@ input:hover {
     margin-top: 20px;
 }
 
-button {
+.submit button {
     background-color: blue;
     color: cornsilk;
     border-bottom: none;
     font-size: 25px;
     cursor: pointer;
     font-weight: 500;
+    margin: 8px;
+    padding: 10px;
 }
 
 button:hover {

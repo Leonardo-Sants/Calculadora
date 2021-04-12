@@ -11,7 +11,7 @@ forms.addEventListener ('submit', function (e) {
     const seg = Number (segundo.value);
 
     const soma = getSoma(pri, seg);
-    resultado.innerHTML = (`Total ${soma}`)
+    resultado.innerHTML = (`Total ${soma}`)   
 })
 
 function getSoma(x,y) {

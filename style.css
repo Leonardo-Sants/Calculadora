@@ -28,19 +28,19 @@ input:hover {
 }
 
 
-.submit {
+.calculo {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.submit button {
+button {
     background-color: blue;
     color: cornsilk;
     border-bottom: none;
-    font-size: 25px;
+    font-size: 15px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 800;
     margin: 8px;
     padding: 10px;
 }
@@ -54,8 +54,9 @@ button:hover {
 
 .resultado {
     display: flex;
-    color: rgb(101, 184, 139);
+    color: rgb(30, 9, 148);
     justify-content: center;
-    margin-top: 15px;
-    font-size: 50px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 70px;
 }

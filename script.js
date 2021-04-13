@@ -1,22 +1,23 @@
-const forms = document.querySelector('.formulario');
 const resultado = document.querySelector('.resultado');
+const num1 = document.querySelector('.num1');
+const num2 = document.querySelector('.num2');
 
-forms.addEventListener ('submit', function (e) {
-    e.preventDefault();
+const n1 = Number (num1.value);
+const n2 = Number (num2.value);
 
-    const primeiro = e.target.querySelector('.primeiro');
-    const segundo = e.target.querySelector('.segundo');
-
-    const pri = Number (primeiro.value);
-    const seg = Number (segundo.value);
-
-    const soma = getSoma(pri, seg);
-    resultado.innerHTML = (`Total ${soma}`)   
-})
-
-function getSoma(x,y) {
-    const soma = x + y;
-    return soma.toFixed(2);
+function somar () {
+    const res = n1 + n2;
+    resultado.innerHTML = `= ${res}`;
 }
-
-
+function dividir () {
+    const res = n1 / n2;
+    resultado.innerHTML = `= ${res}`;
+}
+function subtrair () {
+    const res = n1 - n2;
+    resultado.innerHTML = `= ${res}`;
+}
+function multiplicar () {
+    const res = n1 * n2;
+    resultado.innerHTML = `= ${res}`;
+}

@@ -9,26 +9,27 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <section>
-        <div>
-            <form class="formulario">
-                <h1>Calculadora</h1>
-                <div>
-                    <label for="">Primeiro número</label>
-                </div>
-                <div>
-                    <input type="text" class="primeiro">
-                </div>
-                <div>
-                    <label for="">Segundo número</label>
-                </div>
-                <div>
-                    <input type="text" class="segundo">
-                </div>
-                <div class="submit">
-                    <button type="submit">Calcular</button>
-                </div>
-            </form>
+    <section >
+        <div  class="formulario">
+            <h1>Calculadora</h1>
+            <div>
+                <label for="">Primeiro número</label>
+            </div>
+            <div>
+                <input type="text" class="num1">
+            </div>
+            <div>
+                <label for="">Segundo número</label>
+            </div>
+            <div>
+                <input type="text" class="num2">
+            </div>
+            <div class="calculo">
+                <button onclick="somar()">somar</button>
+                <button onclick="dividir()">dividir</button>
+                <button onclick="subtrair()">subtrair</button>
+                <button onclick="multiplicar()">multiplicar</button>
+            </div>
         </div>
         <div class="resultado"><p></p></div>
     </section>
